@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <IncidentDef>
+    <defName>RefugeeChased</defName>
+    <label>chased refugee</label>
+    <targetType>BaseMap</targetType>
+    <workerClass>RefugeeStats.IncidentWorker_RefugeeChased</workerClass>
+    <baseChance>2.5</baseChance>
+    <populationEffect>Increase</populationEffect>
+    <minRefireDays>8</minRefireDays>
+  </IncidentDef>
+  
+</Defs>
