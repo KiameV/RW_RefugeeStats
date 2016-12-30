@@ -90,7 +90,7 @@ namespace RefugeeStats
 
             if (disabledWorkTags.Count == 0)
             {
-                text += "(" + "NoneLower".Translate() + "), ";
+                text += "(" + "NoneLower".Translate() + ")";
             }
             else
             {
@@ -132,7 +132,7 @@ namespace RefugeeStats
 
             if (skills.Count == 0)
             {
-                text += "(" + "NoneLower".Translate() + "), ";
+                text += "(" + "NoneLower".Translate() + ")";
             }
             else
             {
