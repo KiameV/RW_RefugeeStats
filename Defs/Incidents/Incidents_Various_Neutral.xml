@@ -4,7 +4,7 @@
   <IncidentDef>
     <defName>RefugeeChased</defName>
     <label>chased refugee</label>
-    <targetType>BaseMap</targetType>
+    <targetType>MapPlayerHome</targetType>
     <workerClass>RefugeeStats.IncidentWorker_RefugeeChased</workerClass>
     <baseChance>2.5</baseChance>
     <populationEffect>Increase</populationEffect>

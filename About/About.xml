@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <name>Refugee Stats</name>
-  <author>Shirkie01</author>
+  <name>Refugee Stats - A17</name>
+  <author>Kiame Vivacity</author>
   <url></url>
-  <targetVersion>0.16.1393</targetVersion>
-  <description>A mod to add a bit more detail to the refugee screen.</description>
+  <targetVersion>0.17.1546</targetVersion>
+  <description>A mod to add a bit more detail to the refugee screen.
+  
+Original Author: Shirkie01</description>
 </ModMetaData>
