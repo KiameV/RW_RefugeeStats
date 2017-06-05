@@ -4,11 +4,11 @@
   <IncidentDef>
     <defName>RefugeeChased</defName>
     <label>chased refugee</label>
-    <targetType>MapPlayerHome</targetType>
+	<category>Misc</category>
+	<targetType>MapPlayerHome</targetType>
     <workerClass>RefugeeStats.IncidentWorker_RefugeeChased</workerClass>
-    <baseChance>2.5</baseChance>
+    <baseChance>2</baseChance>
     <populationEffect>Increase</populationEffect>
     <minRefireDays>8</minRefireDays>
   </IncidentDef>
-  
 </Defs>
