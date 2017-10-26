@@ -26,11 +26,15 @@
     <DebugType>none</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>D:\Steam\steamapps\common\RimWorld\Mods\RW_RefugeeStats\Assemblies\</OutputPath>
-    <DefineConstants>TRACE</DefineConstants>
+    <DefineConstants>
+    </DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>..\0Harmony.dll</HintPath>
+    </Reference>
     <Reference Include="Assembly-CSharp">
       <HintPath>D:\Steam\steamapps\common\RimWorld\RimWorldWin_Data\Managed\Assembly-CSharp.dll</HintPath>
       <Private>False</Private>
@@ -44,13 +48,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IncidentWorker_RefugeeChased.cs" />
+    <Compile Include="Main.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>xcopy "$(ProjectDir)..\..\About\*.*" "$(OutDir)..\About" /Y /I /E
-xcopy "$(ProjectDir)..\..\Defs\*.*" "$(OutDir)..\Defs" /Y /I /E</PostBuildEvent>
+    <PostBuildEvent>xcopy "$(ProjectDir)..\..\About\About.xml" "$(OutDir)..\About\" /Y /I
+xcopy "$(ProjectDir)..\..\About\Preview.png" "$(OutDir)..\About\" /Y /I
+xcopy "$(ProjectDir)..\..\About\PublishedFileId.txt" "$(OutDir)..\About\" /Y /I</PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
