@@ -1,7 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ModSyncNinjaData>
-	<ID>ef320afd-e609-47c8-ae4e-7990fa35c3ff</ID>
-	<ModName>Refugee Stats</ModName>
-	<Version>0.18.1.0</Version>
-	<SaveBreaking>false</SaveBreaking>
+  <ID>ef320afd-e609-47c8-ae4e-7990fa35c3ff</ID>
+  <ModName>Refugee Stats</ModName>
+  <Version>0.18.1.0</Version>
+  <SaveBreaking>False</SaveBreaking>
+  <Host name="Github">
+    <Owner>KiameV</Owner>
+    <Project>RW_RefugeeStats</Project>
+    <DownloadFrom>ModSyncReleases</DownloadFrom>
+    <Branch>master</Branch>
+  </Host>
 </ModSyncNinjaData>
